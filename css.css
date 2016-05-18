@@ -118,6 +118,55 @@ a {
     color: black;
 	text-decoration: none;
 }
+#t1 {
+    text-align: left;
+    margin-left: 80px;
+    font-weight: normal;
+    font-size: 12pt;
+    color: black;
+}
+
+#t1 th{
+    background-color:rgba(102, 153, 255, 0.6);
+    color:black;
+}
+
+#t1 td{
+    background-color:rgba(0, 0, 0, 0);
+    font-size: 110%;
+   
+}
+
+#repertoire {
+    background-color: #00664d;
+    color: white;
+}
+#repertoire:hover {
+    background-color: #99ff99;
+    color: #00664d;
+    cursor:pointer;
+}
+
+#rules {
+    background-color: #00664d;
+    color: white;
+    margin-top: 2px;
+}
+#rules:hover {
+    background-color: #99ff99;
+    color: #00664d;
+    cursor:pointer;
+}
+#signUp {
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+}
+
+#memba{
+    color:#00664d;
+}
 
 @media only screen and (max-width: 1050px) {
     #space {
