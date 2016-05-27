@@ -1,0 +1,239 @@
+//css
+
+body{
+    background-color: #aec2ea;
+    padding-top: 180px;
+}
+
+#heading {
+	background-color: #3366cc;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 180px;
+	width: 100%;
+	text-align: center;
+	font-family: calibri;
+	font-size: 40px;
+	background-size: 100%;
+	background: linear-gradient(rgba(51,102,204,0.90), rgba(51,102,204,0.90)), url("header.png") 200%;
+	min-width: 450px;
+	float: none;
+	
+}
+
+#footing {
+	background-color: #3366cc;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	height: 26px;
+	width: 100%;
+	text-align: center;
+	font-family: calibri;
+	font-size: 23px;
+	min-width: 450px;
+	border-top: 1px solid #232974;
+    
+}
+
+#space {
+	background-color: white;
+	width: 1024px;
+	text-align: center;
+	font-family: calibri;
+	font-size: 23px;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 430px;
+	margin-top: 180px;
+	max-height: auto;
+	height: 200%;
+    
+}
+
+#infoBox1 {
+	border: 2px solid black;
+	width: auto;
+	height: auto;
+	padding: 10px;
+	background-color: white;
+	font-size: 16px;
+	color: black;
+	text-align: center;
+	float: left;
+	margin-left: 42px;
+	line-height: 125%;
+	min-width: 200px;
+	max-width: 400px;
+	margin-top: 10px;
+	left: auto;
+	right: auto;
+	margin-right: 40px;
+}
+#infoBox12 {
+	border: 2px solid black;
+	width: auto;
+	height: auto;
+	padding: 10px;
+	background-color: white;
+	font-size: 16px;
+	color: black;
+	text-align: center;
+	float: right;
+	margin-left: 42px;
+	line-height: 125%;
+	min-width: 200px;
+	max-width: 400px;
+	margin-top: 10px;
+	left: auto;
+	right: auto;
+	margin-right: 40px;
+}
+#infoBox2 {
+	border: 2px solid black;
+	width: 900px;
+	height: auto;
+	padding: 10px;
+	background-color: white;
+	font-size: 16px;
+	color: black;
+	text-align: justify;
+	margin-right: auto;
+	margin-left: auto;
+	line-height: 125%;
+	min-width: 800px;
+	max-width: 900px;
+	margin-top: 10px;
+}
+h1 {
+	font-size: 24px;
+	font-style: italic;
+}
+h2 {
+	font-weight: bold;
+	color: #008EBB;
+	font-size: 20px;
+	line-height: 0;
+}
+a:visited {
+    color: black;
+    text-decoration: none; 
+    decoration: none;
+    text-decoration: none;
+}
+
+a:active {
+    color: black;
+	text-decoration: none; 
+    decoration: none;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+p>a:hover {
+	color: #290ED5;
+	text-decoration: none;
+}
+li>a:hover {
+	color: #290ED5;
+	text-decoration: none;
+}
+a {
+    color: black;
+	text-decoration: none;
+}
+	#homeBanner{
+	height: 300px;
+	background-color: #3366CC;
+	background-image: url(bannnnner.jpg);
+	}
+	#bannerText {
+	height: 90px;
+	min-width: 350px;
+	width: auto;
+	max-width: 400px;
+	background-color: #DFE1FF;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+	float: right;
+	margin-top: 10px;
+	padding-top: 10px;
+	text-align: center;
+	font-style: normal;
+	font-family: playball;
+	font-weight: 400;
+	font-size: xx-large;
+	font-variant: normal;
+	color: #000000;
+	opacity: 0.8;
+}
+#bannerSignUp {
+	height: 100px;
+	min-width: 500px;
+	background-color: #DFE1FF;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+	float: right;
+	margin-top: 90px;
+	text-align: center;
+	font-style: normal;
+	font-family: playball;
+	font-weight: 400;
+	font-size: xx-large;
+	font-variant: normal;
+	color: #000000;
+	clear: right;
+	width: 500px;
+	opacity: 0.8;
+}
+#infoBox3 {
+	border: 2px solid black;
+	width: auto;
+	height: auto;
+	padding: 10px;
+	background-color: #3366cc;
+	font-size: 20px;
+	color: black;
+	text-align: left;
+	float: right;
+	margin-right: 20px;
+	margin-left: 20px;
+	line-height: 125%;
+	position: fixed;
+	right: 0px;
+	top: 5px;
+	font-weight: 500;
+	z-index:9;
+	
+}
+#infoBox3:hover {
+	border-color: white;
+	color: white;
+	}
+
+@media only screen and (max-width: 1050px) {
+    #space {
+        width: 90%;
+    }
+    #heading{
+        font-size: 25px;
+    }
+}
+.bannerP1 {
+	margin: 0;
+	text-align: left;
+	float: left;
+	width: 200;
+	text-decoration: underline;
+}
+.bannerP2 {
+	margin: 0;
+	text-align: left;
+	float: left;
+	width: 300;
+	text-decoration: underline;
+}

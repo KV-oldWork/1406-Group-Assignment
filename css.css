@@ -47,6 +47,9 @@ body{
     margin-right: auto;
     
 }
+#infoBox2 {
+}
+
 
 #infoBox1 {
 	width: auto;
@@ -179,5 +182,3 @@ a {
         font-size: 25px;
     }
 }
-
-
